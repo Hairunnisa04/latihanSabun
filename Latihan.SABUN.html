@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borcelle Online Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+        header h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            color: #0077b6;
+        }
+        .banner {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ccc;
+        }
+        .banner h2 {
+            color: #0077b6;
+            font-size: 32px;
+        }
+        .banner p {
+            color: #555;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .product-container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+            height: 150px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .product-card p {
+            color: #0077b6;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .product-card button {
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 0 0 8px 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .product-card button:hover {
+            background-color: #005f8a;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffffff;
+            border-top: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 >MYSHOPE</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Courses</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h2 style="color: saddlebrown;">ONLINE SHOP</h2>
+        <p style="color: saddlebrown;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    </div>
+
+    <div style="color: saddlebrown;" class="product-container">
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZPHGty4pXawEJQE_Pjqwc6jVdLr35z72rQ6i1CLu64HfSzdN" alt="Oil Soap">
+            <h3>Oil Soap</h3>
+            <p>$5.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5w5f9uYkb3KXcLbVgjg__QhR2IaPm30X0f2gdXqseIvQ1dOR" alt="Organic Soap">
+            <h3>Organic Soap</h3>
+            <p>$5.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9anRKo4dnG8V5KjEobUd3wS95x5WTynbnGtnk9lNgTX5t4AHY" alt="Glycerin Soap">
+            <h3>Glycerin Soap</h3>
+            <p>$5.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS7jaiAJwVMzgdS3RGbosigdtxz46W21TOx_UtHjNfWlIGtVrBp" alt="Olive oil Soap">
+            <h3>Olive oil Soap</h3>
+            <p>$5.00</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
